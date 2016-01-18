@@ -1,0 +1,7 @@
+{
+  "name": "micro-services-demo",
+  "version": "1.0",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

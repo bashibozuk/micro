@@ -1,0 +1,32 @@
+@-webkit-keyframes slide-in-rtl {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@-moz-keyframes slide-in-rtl {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@-o-keyframes slide-in-rtl {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-in-rtl {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

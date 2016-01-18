@@ -1,0 +1,44 @@
+/* home page */
+#brands {
+    padding: 0.8em 0;
+}
+#brands ul {
+    display: inline-block;
+
+}
+
+#brands ul li {
+    list-style-type: none;
+
+}
+
+#brands ul li img {
+    transition: 0.5s;
+}
+#brands ul li img:hover {
+    overflow: hidden;
+    transform: scale(1.15);
+}
+
+.featured {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.featured img:hover {
+    transform: scale(1.15);
+    overflow: hidden;
+}
+
+/* end home page */
+
+/*
+@-moz-keyframes slide-in-ltr {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}
+
+@-webkit-keyframes  slide-in-ltr {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}*/

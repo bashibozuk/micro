@@ -1,0 +1,31 @@
+
+@import "slide-in-ltr.css";
+@import "slide-in-rtl.css";
+@import "fade-out.css";
+
+.animation-slide-in-ltr {
+    -moz-animation: slide-in-ltr;
+    -webkit-animation-name: slide-in-ltr;
+    -o-animation: slide-in-ltr;
+    animation-name: slide-in-ltr;
+    animation-duration: 1s;
+    transition: 2s;
+}
+
+.animation-slide-in-rtl {
+    -moz-animation: slide-in-rtl;
+    -webkit-animation-name: slide-in-rtl;
+    -o-animation: slide-in-rtl;
+    animation-name: slide-in-rtl;
+    animation-duration: 1s;
+    transition: 2s;
+}
+
+.animation-fade-out {
+    -moz-animation: fade-out;
+    -webkit-animation-name: fade-out;
+    -o-animation: fade-out;
+    animation-name: fade-out;
+    animation-duration: 2s;
+    transition: 2s;
+}
