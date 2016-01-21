@@ -3,15 +3,16 @@
 
  * Created by vasil on 1/17/16.
  */
+
 (function($){
     $(function () {
-        var timeout = 0;
+        var timeout = 15;
         var lastExecuted;
+        window.scrollTo(0, 0);
         $(window).on('scroll', function() {
 
             if (!lastExecuted || Date.now() - lastExecuted > timeout) {
                 lastExecuted = Date.now();
-                console.log(lastExecuted)
                $('[data-animation-name]').filter(function(){
                   return isScrolledIntoView(this);
                }).niceAnimations();
@@ -33,6 +34,6 @@ function isScrolledIntoView(elem)
 
     var elemTop = $elem.offset().top;
     var elemBottom = elemTop + $elem.height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) || elemBottom - docViewBottom < 10;
+    console.log(elemTop, docViewTop);
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop)) || elemBottom - docViewBottom < ($elem.width() - 10);
 }

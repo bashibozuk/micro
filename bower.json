@@ -2,6 +2,8 @@
   "name": "micro-services-demo",
   "version": "1.0",
   "dependencies": {
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37",
+    "google-maps": "~3.1.0"
   }
 }

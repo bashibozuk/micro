@@ -1,3 +1,7 @@
+/*navigation*/
+
+/*end navigation*/
+
 /* home page */
 #brands {
     padding: 0.8em 0;
@@ -25,20 +29,44 @@
     padding: 0.5em;
 }
 
-.featured img:hover {
-    transform: scale(1.15);
-    overflow: hidden;
+.price {
+    font-weight: bold;
+}
+
+.carousel-caption a {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 /* end home page */
 
-/*
-@-moz-keyframes slide-in-ltr {
-    from {visibility: hidden;}
-    to {visibility: visible;}
+/*details page*/
+.score-label {
+    padding: 0.5em;
 }
 
-@-webkit-keyframes  slide-in-ltr {
-    from {visibility: hidden;}
-    to {visibility: visible;}
-}*/
+.padding-05-0 {
+    padding: 0.5em 0;
+}
+
+#details .price {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#side-column {
+    margin-top: 1em;
+}
+
+#details h2.price, #rent-btn {
+    margin-top: 0.5em;
+
+}
+
+#rent-btn {
+    margin: 1.2em 0 0 1.2em;
+
+}
+

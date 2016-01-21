@@ -26,6 +26,6 @@
     -webkit-animation-name: fade-out;
     -o-animation: fade-out;
     animation-name: fade-out;
-    animation-duration: 2s;
+    animation-duration: 2.7s;
     transition: 2s;
 }
